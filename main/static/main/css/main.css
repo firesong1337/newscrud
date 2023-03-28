@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(186, 196, 243);
+
+}
+aside {
+    float:left;
+    background-color: rgb(128, 118, 221);
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid rgb(120, 120, 121);
+}
+aside img {
+    width: 60px;
+}
+aside .logo {
+    font-size: 24px;
+    margin-left: 12px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+
+}
+aside h4 {
+    margin-top: 50px;
+    font-size: 20px;
+}
+aside ul {list-style: none}
+aside ul li {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+aside ul li:hover, aside ul a:hover {
+    color: blue;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+main .features {
+    float:left;
+    color:#fff;
+    margin-top: 100px;
+    text-align:center;
+    width: 75%;
+}
+main .features h1 {font-size: 50px;}
+main .features p {
+    max-width: 400px;
+    margin: 20px auto
+}
+form {
+    margin-left: 25%;
+    width: 500px;
+    margin-top: 50px;
+
+}
